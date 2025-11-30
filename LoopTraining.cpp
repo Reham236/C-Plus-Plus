@@ -54,15 +54,39 @@ int main(){
 
 
 
-// reserved numbers from user
-int vals[5];
-cout<<"Enter 5 numbers to reverse: ";
-for(int i= 4 ; i>=0; i--){
-    cin>>vals[i];
+// // reserved numbers from user
+// int vals[5];
+// cout<<"Enter 5 numbers to reverse: ";
+// for(int i= 4 ; i>=0; i--){
+//     cin>>vals[i];
+// }
+// cout<<"Reversed numbers are: ";
+// for(int i=0; i<5; i++){
+//     cout<<vals[i]<<" ";
+// }
+
+
+
+
+int index = 6;
+
+while(index > 6)
+{
+  cout << index << "\n"; 
+  index--;
 }
-cout<<"Reversed numbers are: ";
-for(int i=0; i<5; i++){
-    cout<<vals[i]<<" ";
-}
+
+
+
+int index = 6;
+
+do 
+{
+  cout << index << "\n"; 
+  index--;
+} while(index > 6);
+
+
+
 return 0;
 }
